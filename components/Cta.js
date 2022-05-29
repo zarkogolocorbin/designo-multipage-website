@@ -33,7 +33,10 @@ export default function Cta() {
             how our expertise can help your business grow.
           </p>
         </div>
-        <Link href="/contact">
+        <Link
+          href="/contact"
+          aria-label="this link will take you back to the contact page"
+        >
           <a>Get in touch</a>
         </Link>
       </motion.div>

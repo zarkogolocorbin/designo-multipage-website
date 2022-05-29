@@ -54,7 +54,10 @@ export default function Showcase() {
             fully responsive websites, app design, and engaging brand
             experiences. Find out more about our services.
           </p>
-          <Link href={"/about"}>
+          <Link
+            href={"/about"}
+            aria-label="this link will take you to the about page"
+          >
             <a>learn more</a>
           </Link>
         </motion.div>

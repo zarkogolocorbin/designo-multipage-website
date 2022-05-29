@@ -14,7 +14,10 @@ export default function Header() {
   return (
     <nav className={styles[`${showNavbar ? "navbar-fixed" : "navbar"}`]}>
       <div className={styles["navbar-center"]}>
-        <Link href="/">
+        <Link
+          href="/"
+          aria-label="this link will take you back to the home page"
+        >
           <a>
             <Image
               src="/assets/shared/desktop/logo-dark.png"
@@ -35,17 +38,26 @@ export default function Header() {
 
         <ul className={styles["navbar-links"]}>
           <li>
-            <Link href="/about">
+            <Link
+              href="/about"
+              aria-label="this link will take you to the about page"
+            >
               <a>our company</a>
             </Link>
           </li>
           <li>
-            <Link href="/location">
+            <Link
+              href="/location"
+              aria-label="this link will take you to the location page"
+            >
               <a>locations</a>
             </Link>
           </li>
           <li>
-            <Link href="/contact">
+            <Link
+              href="/contact"
+              aria-label="this link will take you to the contact page"
+            >
               <a>contact</a>
             </Link>
           </li>

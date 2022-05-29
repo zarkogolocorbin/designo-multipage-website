@@ -8,7 +8,10 @@ export default function Footer() {
       <div className={styles["footer-center"]}>
         <div className={styles["footer-navbar"]}>
           <div className={styles["footer-logo"]}>
-            <Link href="/">
+            <Link
+              href="/"
+              aria-label="this link will take you back to the home page"
+            >
               <a>
                 <Image
                   src={"/assets/shared/desktop/logo-light.png"}
@@ -20,13 +23,22 @@ export default function Footer() {
             </Link>
           </div>
           <div className={styles.links}>
-            <Link href="/about">
+            <Link
+              href="/about"
+              aria-label="this link will take you back to the about page"
+            >
               <a>About</a>
             </Link>
-            <Link href="/location">
+            <Link
+              href="/location"
+              aria-label="this link will take you back to the location page"
+            >
               <a>Location</a>
             </Link>
-            <Link href="/contact">
+            <Link
+              href="/contact"
+              aria-label="this link will take you back to the contact page"
+            >
               <a>Contact</a>
             </Link>
           </div>
@@ -45,7 +57,10 @@ export default function Footer() {
           <div className={styles["contact-social"]}>
             <ul>
               <li>
-                <Link href="/">
+                <Link
+                  href="/"
+                  aria-label="this link will take you back to the home page"
+                >
                   <a>
                     <Image
                       src="/assets/shared/desktop/icon-facebook.svg"
@@ -57,7 +72,10 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/">
+                <Link
+                  href="/"
+                  aria-label="this link will take you back to the home page"
+                >
                   <a>
                     <Image
                       src="/assets/shared/desktop/icon-youtube.svg"
@@ -69,7 +87,10 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/">
+                <Link
+                  href="/"
+                  aria-label="this link will take you back to the home page"
+                >
                   <a>
                     <Image
                       src="/assets/shared/desktop/icon-twitter.svg"
@@ -81,7 +102,10 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/">
+                <Link
+                  href="/"
+                  aria-label="this link will take you back to the home page"
+                >
                   <a>
                     <Image
                       src="/assets/shared/desktop/icon-pinterest.svg"
@@ -93,7 +117,10 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/">
+                <Link
+                  href="/"
+                  aria-label="this link will take you back to the home page"
+                >
                   <a>
                     <Image
                       src="/assets/shared/desktop/icon-instagram.svg"

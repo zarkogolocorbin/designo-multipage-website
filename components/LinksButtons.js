@@ -14,7 +14,10 @@ export default function LinksButtons({ allCategories }) {
         return (
           <div key={index} className={styles[`${curCategory.slug}`]}>
             <div className={styles.overlay}>
-              <Link href={`/${curCategory.slug}`}>
+              <Link
+                href={`/${curCategory.slug}`}
+                aria-label={`this link will take you to the ${curCategory.slug} page`}
+              >
                 <a>
                   <h2>{curCategory.name}</h2>
                   <p>

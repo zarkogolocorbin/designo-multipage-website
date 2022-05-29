@@ -6,7 +6,10 @@ export default function Buttons() {
     <section className={styles.buttons}>
       <div className={styles["web-design"]}>
         <div className={styles.overlay}>
-          <Link href="/web-design">
+          <Link
+            href="/web-design"
+            aria-label="this link will take you back to the web design page"
+          >
             <a>
               <h2>web design</h2>
               <p>
@@ -18,7 +21,10 @@ export default function Buttons() {
       </div>
       <div className={styles["app-design"]}>
         <div className={styles.overlay}>
-          <Link href="/app-design">
+          <Link
+            href="/app-design"
+            aria-label="this link will take you back to the app-design page"
+          >
             <a>
               <h2>app design</h2>
               <p>
@@ -30,7 +36,10 @@ export default function Buttons() {
       </div>
       <div className={styles["graphic-design"]}>
         <div className={styles.overlay}>
-          <Link href="/graphic-design">
+          <Link
+            href="/graphic-design"
+            aria-label="this link will take you back to the graphic design page"
+          >
             <a>
               <h2>graphic design</h2>
               <p>

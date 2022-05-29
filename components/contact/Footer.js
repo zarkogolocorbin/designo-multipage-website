@@ -8,25 +8,37 @@ export default function FooterContact() {
       <div className={styles["footer-contact-center"]}>
         <div className={styles["footer-navbar"]}>
           <div className={styles["footer-logo"]}>
-            <Link href="/">
+            <Link
+              href="/"
+              aria-label="this link will take you back to the home page"
+            >
               <a>
                 <Image
                   src={"/assets/shared/desktop/logo-light.png"}
-                  height={27}
-                  width={202}
+                  height={"27px"}
+                  width={"202px"}
                   alt={"logo"}
                 />
               </a>
             </Link>
           </div>
           <div className={styles.links}>
-            <Link href="/about">
+            <Link
+              href="/about"
+              aria-label="this link will take you to the about page"
+            >
               <a>About</a>
             </Link>
-            <Link href="/location">
+            <Link
+              href="/location"
+              aria-label="this link will take you to the location page"
+            >
               <a>Location</a>
             </Link>
-            <Link href="/contact">
+            <Link
+              href="/contact"
+              aria-label="this link will take you to the contact page"
+            >
               <a>Contact</a>
             </Link>
           </div>
@@ -45,7 +57,10 @@ export default function FooterContact() {
           <div className={styles["contact-social"]}>
             <ul>
               <li>
-                <Link href="/">
+                <Link
+                  href="/"
+                  aria-label="this link will take you back to the home page"
+                >
                   <a>
                     <Image
                       src="/assets/shared/desktop/icon-facebook.svg"
@@ -57,7 +72,10 @@ export default function FooterContact() {
                 </Link>
               </li>
               <li>
-                <Link href="/">
+                <Link
+                  href="/"
+                  aria-label="this link will take you back to the home page"
+                >
                   <a>
                     <Image
                       src="/assets/shared/desktop/icon-youtube.svg"
@@ -69,7 +87,10 @@ export default function FooterContact() {
                 </Link>
               </li>
               <li>
-                <Link href="/">
+                <Link
+                  href="/"
+                  aria-label="this link will take you back to the home page"
+                >
                   <a>
                     <Image
                       src="/assets/shared/desktop/icon-twitter.svg"
@@ -81,7 +102,10 @@ export default function FooterContact() {
                 </Link>
               </li>
               <li>
-                <Link href="/">
+                <Link
+                  href="/"
+                  aria-label="this link will take you back to the home page"
+                >
                   <a>
                     <Image
                       src="/assets/shared/desktop/icon-pinterest.svg"
@@ -93,7 +117,10 @@ export default function FooterContact() {
                 </Link>
               </li>
               <li>
-                <Link href="/">
+                <Link
+                  href="/"
+                  aria-label="this link will take you back to the home page"
+                >
                   <a>
                     <Image
                       src="/assets/shared/desktop/icon-instagram.svg"

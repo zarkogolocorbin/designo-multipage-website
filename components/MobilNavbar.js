@@ -6,17 +6,26 @@ export default function MobilNavbar() {
     <div className={styles["mobileNav-overlay"]}>
       <ul className={styles["navbarMobile-links"]}>
         <li>
-          <Link href="/about">
+          <Link
+            href="/about"
+            aria-label="this link will take you to the about page"
+          >
             <a>our company</a>
           </Link>
         </li>
         <li>
-          <Link href="/location">
+          <Link
+            href="/location"
+            aria-label="this link will take you to the location page"
+          >
             <a>locations</a>
           </Link>
         </li>
         <li>
-          <Link href="/contact">
+          <Link
+            href="/contact"
+            aria-label="this link will take you to the contact page"
+          >
             <a>contact</a>
           </Link>
         </li>

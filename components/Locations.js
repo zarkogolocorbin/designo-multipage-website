@@ -14,7 +14,10 @@ export default function Locations() {
         />
         <div className={styles["locations-content"]}>
           <h3>Canada</h3>
-          <Link href="/location">
+          <Link
+            href="/location"
+            aria-label="this link will take you to the location page"
+          >
             <a>see location</a>
           </Link>
         </div>
@@ -28,7 +31,10 @@ export default function Locations() {
         />
         <div className={styles["locations-content"]}>
           <h3>Australia</h3>
-          <Link href="/location">
+          <Link
+            href="/location"
+            aria-label="this link will take you to the location page"
+          >
             <a>see location</a>
           </Link>
         </div>
@@ -42,7 +48,10 @@ export default function Locations() {
         />
         <div className={styles["locations-content"]}>
           <h3>United Kingdom</h3>
-          <Link href="/location">
+          <Link
+            href="/location"
+            aria-label="this link will take you to the location page"
+          >
             <a>see location</a>
           </Link>
         </div>
