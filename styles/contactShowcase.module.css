@@ -1,0 +1,51 @@
+.contact-showcase {
+  background-color: #e7816b;
+  display: flex;
+  flex-direction: column;
+  row-gap: 4.8rem;
+  padding: 7.2rem 2.4rem;
+}
+
+.contact-content {
+  text-align: center;
+  color: #fff;
+}
+
+.contact-content h1 {
+  font-weight: 500;
+  font-size: 3.2rem;
+  line-height: 36px;
+}
+
+.contact-content p {
+  font-size: 1.5rem;
+  line-height: 25px;
+  margin-top: 2.4rem;
+}
+
+@media screen and (min-width: 768px) {
+  .contact-showcase {
+    padding-left: 58px;
+    padding-right: 58px;
+    align-items: stretch;
+    border-radius: 1.5rem;
+  }
+
+  .contact-content {
+    text-align: start;
+  }
+}
+
+@media screen and (min-width: 1175px) {
+  .contact-showcase {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 96px;
+    padding-right: 96px;
+    align-items: center;
+  }
+
+  .contact-content {
+    flex: 0 1 50%;
+  }
+}

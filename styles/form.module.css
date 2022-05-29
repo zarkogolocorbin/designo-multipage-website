@@ -1,0 +1,100 @@
+.main-form {
+  flex: 0 1 380px;
+}
+.form-control {
+  border-bottom: 1px solid #fff;
+  margin-bottom: 2.5rem;
+}
+.errors {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+}
+
+.error {
+  color: #fff;
+  font-style: italic;
+  font-size: 1.2rem;
+}
+
+.error-input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.error-input input,
+.input input {
+  background: transparent;
+  border: none;
+  outline: none;
+  max-width: 80%;
+  margin-bottom: 11px;
+  padding-left: 13px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.error-input input:focus,
+.input input:focus {
+  font-weight: bold;
+}
+
+.error-input textarea,
+.input textarea {
+  max-width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  margin-bottom: 11px;
+  padding-left: 13px;
+  resize: none;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.error-input textarea:focus,
+.input textarea:focus {
+  font-weight: bold;
+}
+
+.error-input input::placeholder,
+.input input::placeholder {
+  color: #fff;
+  opacity: 0.5;
+  font-weight: normal;
+}
+
+.error-input textarea::placeholder,
+.input textarea::placeholder {
+  color: #fff;
+  opacity: 0.5;
+  font-weight: normal;
+}
+
+.submit-button {
+  display: block;
+  text-transform: uppercase;
+  padding: 1.8rem 4.8rem;
+  margin: auto;
+  border-radius: 0.8rem;
+  border: none;
+  outline: none;
+  margin-top: 3.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  color: #fff;
+  background-color: #ffad9b;
+}
+
+@media screen and (min-width: 768px) {
+  .submit-button {
+    margin: 4rem 0 0 auto;
+  }
+}
