@@ -26,6 +26,19 @@ main {
   row-gap: 12rem;
 }
 
+.rec.rec-pagination {
+  display: none;
+}
+
+@media screen and (max-width: 540px) {
+  .rec.rec-arrow {
+    display: none;
+  }
+  .rec.rec-pagination {
+    display: block;
+  }
+}
+
 @media screen and (min-width: 768px) {
   main {
     padding-left: calc(40px + (165 - 40) * ((100vw - 768px) / (1440 - 768)));
@@ -45,4 +58,27 @@ main {
     padding-left: 16.5rem;
     padding-right: 16.5rem;
   }
+}
+
+/* change default styles of carousel */
+
+.rec.rec-carousel-wrapper {
+  padding: 0;
+}
+
+.rec.rec-arrow.rec-arrow-left,
+.rec.rec-arrow.rec-arrow-right {
+  font-size: 1.6rem;
+  background-color: transparent;
+}
+
+.rec.rec-arrow.rec-arrow-left:hover,
+.rec.rec-arrow.rec-arrow-right:hover {
+  background-color: rgba(39, 39, 39, 0.39);
+  color: #fff;
+}
+
+.rec.rec-dot.rec-dot_active {
+  background-color: rgba(30, 30, 31, 0.5);
+  box-shadow: 0 0 1px 3px rgb(30, 30, 31);
 }

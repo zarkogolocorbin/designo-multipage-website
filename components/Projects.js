@@ -9,7 +9,7 @@ export default function Projects({ projects }) {
           <article key={index}>
             <div>
               <Image
-                src={project.imageUrl}
+                src={project.imgUrl}
                 width={"350px"}
                 height={"320px"}
                 alt={project.title}

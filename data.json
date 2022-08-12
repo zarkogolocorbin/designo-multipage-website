@@ -1,0 +1,111 @@
+[
+  {
+    "id": 1,
+    "categoryTitle": "Web Design",
+    "categoryText": "We build websites that serve as powerful marketing tools and bring memorable brand experiences.",
+    "slug": "web-design",
+    "projects": [
+      {
+        "id": 1,
+        "title": "EXPRESS",
+        "text": "A multi-carrier shipping website for ecommerce businesses",
+        "category": "Web Design",
+        "imgUrl": "https://res.cloudinary.com/db7mnalwf/image/upload/v1651940853/designo/web-design/image-express_bh9eqt.jpg"
+      },
+      {
+        "id": 2,
+        "title": "TRANSFER",
+        "text": "Site for low-cost money transfers and sending money within seconds",
+        "imgUrl": "https://res.cloudinary.com/db7mnalwf/image/upload/v1651940853/designo/web-design/image-transfer_fxdlto.jpg"
+      },
+      {
+        "id": 3,
+        "title": "PHOTON",
+        "text": "A state-of-the-art music player with high-resolution audio and DSP effects",
+        "imgUrl": "https://res.cloudinary.com/db7mnalwf/image/upload/v1651940853/designo/web-design/image-photon_jgf1bn.jpg"
+      },
+      {
+        "id": 4,
+        "title": "BUILDER",
+        "text": "Connects users with local contractors based on their location",
+        "imgUrl": "https://res.cloudinary.com/db7mnalwf/image/upload/v1651940853/designo/web-design/image-builder_hfpnos.jpg"
+      },
+      {
+        "id": 5,
+        "title": "BLOGR",
+        "text": "Blogr is a platform for creating an online blog or publication",
+        "imgUrl": "https://res.cloudinary.com/db7mnalwf/image/upload/v1651940853/designo/web-design/image-blogr_zvlojr.jpg"
+      },
+      {
+        "id": 6,
+        "title": "CAMP",
+        "text": "Get expert training in coding, data, design, and digital marketing",
+        "imgUrl": "https://res.cloudinary.com/db7mnalwf/image/upload/v1651940853/designo/web-design/image-camp_mlkwos.jpg"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "categoryTitle": "App Design",
+    "categoryText": "Our mobile designs bring intuitive digital solutions to your customers right at their fingertips.",
+    "slug": "app-design",
+    "projects": [
+      {
+        "id": 7,
+        "title": "AIRFILTER",
+        "text": "Solving the problem of poor indoor air quality by filtering the air",
+        "imgUrl": "https://res.cloudinary.com/db7mnalwf/image/upload/v1651940776/designo/app-design/image-airfilter_ggiyai.jpg"
+      },
+      {
+        "id": 8,
+        "title": "EYECAM",
+        "text": "Product that lets you edit your favorite photos and videos at any time",
+        "imgUrl": "https://res.cloudinary.com/db7mnalwf/image/upload/v1651940776/designo/app-design/image-eyecam_lihryy.jpg"
+      },
+      {
+        "id": 9,
+        "title": "FACEIT",
+        "text": "Get to meet your favorite internet superstar with the faceit app",
+        "imgUrl": "https://res.cloudinary.com/db7mnalwf/image/upload/v1651940776/designo/app-design/image-faceit_cwlrdm.jpg"
+      },
+      {
+        "id": 10,
+        "title": "TODO",
+        "text": "A todo app that features cloud sync with light and dark mode",
+        "imgUrl": "https://res.cloudinary.com/db7mnalwf/image/upload/v1651940776/designo/app-design/image-todo_kymsmn.jpg"
+      },
+      {
+        "id": 11,
+        "title": "LOOPSTUDIOS",
+        "text": "A VR experience app made for Loopstudios",
+        "imgUrl": "https://res.cloudinary.com/db7mnalwf/image/upload/v1651940776/designo/app-design/image-loopstudios_lxcnn4.jpg"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "categoryTitle": "Graphic Design",
+    "categoryText": "We deliver eye-catching branding materials that are tailored to meet your business objectives.",
+    "slug": "graphic-design",
+    "projects": [
+      {
+        "id": 12,
+        "title": "TIM BROWN",
+        "text": "A book cover designed for Tim Brown’s new release, ‘Change’",
+        "imgUrl": "https://res.cloudinary.com/db7mnalwf/image/upload/v1651940816/designo/graphic-design/image-change_v9uv7o.jpg"
+      },
+      {
+        "id": 13,
+        "title": "BOXED WATER",
+        "text": "A simple packaging concept made for Boxed Water",
+        "imgUrl": "https://res.cloudinary.com/db7mnalwf/image/upload/v1651940816/designo/graphic-design/image-boxed-water_infv8i.jpg"
+      },
+      {
+        "id": 14,
+        "title": "SCIENCE!",
+        "text": "A poster made in collaboration with the Federal Art Project",
+        "imgUrl": "https://res.cloudinary.com/db7mnalwf/image/upload/v1651940817/designo/graphic-design/image-science_jpzgxf.jpg"
+      }
+    ]
+  }
+]

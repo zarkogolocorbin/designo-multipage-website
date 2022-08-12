@@ -3,37 +3,25 @@ import Features from "../components/Features";
 import Layout from "../components/Layout";
 import Showcase from "../components/Showcase";
 
-import { PrismaClient } from "@prisma/client";
-const prisma = new PrismaClient();
+import data from "../data.json";
 
-export default function HomePage({ data }) {
-  const objData = JSON.parse(data);
+export default function HomePage({ category }) {
   return (
     <div>
       <Layout>
         <Showcase />
-        <Buttons />
+        <Buttons category={category} />
         <Features />
       </Layout>
     </div>
   );
 }
 
-export async function getStaticProps() {
-  const categories = await prisma.category.findMany({
-    include: { projects: true },
-  });
-
-  const data = [
-    { id: 1, title: "title" },
-    { id: 2, title: "title2" },
-  ];
-
-  const allCategories = JSON.stringify(categories);
-
+export function getServerSideProps() {
+  const category = data;
   return {
     props: {
-      data: allCategories,
+      category,
     },
   };
 }

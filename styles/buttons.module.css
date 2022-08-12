@@ -1,19 +1,28 @@
 .buttons {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   row-gap: 2.4rem;
-  padding-left: 2.4rem;
-  padding-right: 2.4rem;
 }
-
-.buttons > div {
+.card {
+  flex: 0 0 auto;
   border-radius: 1.5rem;
   color: #fff;
   text-transform: uppercase;
   text-align: center;
   position: relative;
   overflow: hidden;
-  padding: 9rem 0;
+  min-width: 250px;
+  width: 450px;
+  height: 308px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card a {
+  z-index: 100;
 }
 
 .overlay {
@@ -23,7 +32,7 @@
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.4);
-  z-index: 1;
+  z-index: 10;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -33,6 +42,26 @@
 
 .overlay:hover {
   background-color: rgba(231, 129, 107, 0.8);
+}
+.web-design {
+  background: url("/assets/home/mobile/image-web-design.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.app-design {
+  background: url("/assets/home/mobile/image-app-design.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.graphic-design {
+  background: url("/assets/home/mobile/image-graphic-design.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
 .buttons div h2 {
@@ -53,27 +82,6 @@
 .buttons div p span {
   margin-left: 1.6rem;
   color: #e7816b;
-}
-
-.web-design {
-  background: url("/assets/home/mobile/image-web-design.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-}
-
-.app-design {
-  background: url("/assets/home/mobile/image-app-design.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-}
-
-.graphic-design {
-  background: url("/assets/home/mobile/image-graphic-design.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
 }
 
 @media screen and (min-width: 768px) {
@@ -115,16 +123,48 @@
     background-size: cover;
   }
 }
-@media screen and (min-width: 1024px) {
+
+/* @media screen and (min-width: 768px) {
   .buttons {
-    column-gap: 3rem;
-    grid-template-columns: 1fr 1fr;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .buttons div h2 {
+    font-size: 4rem;
+    letter-spacing: 2px;
+  }
+
+  .buttons div p {
+    margin-top: 2.4rem;
   }
 
   .web-design {
-    grid-row: 1/3;
+    background: url("/assets/home/tablet/image-web-design.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
   }
 
+  .app-design {
+    background: url("/assets/home/tablet/image-app-design.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .graphic-design {
+    background: url("/assets/home/tablet/image-graphic-design.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+} */
+@media screen and (min-width: 1024px) {
+  .buttons {
+    justify-content: space-evenly;
+    flex-direction: row;
+  }
   .web-design {
     background: url("/assets/home/desktop/image-web-design-large.jpg");
     background-repeat: no-repeat;
